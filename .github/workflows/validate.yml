@@ -2,7 +2,7 @@ name: Validate Files
 on: push
 jobs:
     validate-file:
-        run-on: ubuntu-latest
+        runs-on: ubuntu-latest
         steps:
         - name: get-repo-code
           uses: actions/checkout@v4
